@@ -1,0 +1,4 @@
+---
+- name: kamon-grafana-dashboard
+  image: kamon/grafana_graphite
+  ports: ['8126:8126', '8125:8125/udp','6785:80']
